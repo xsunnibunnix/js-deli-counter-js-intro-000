@@ -4,11 +4,10 @@ function takeANumber(line, name) {
 }
 
 function nowServing(line) {
-var current = line[0]
   if (line.length === 0) {
     return  "There is nobody waiting to be served!"
   } else {
-    line.shift();
+    var current = line.shift();
     return "Currently serving " + current + ".";
     }
   }
@@ -16,5 +15,9 @@ var current = line[0]
 function currentLine(line) {
   if (line.length === 0) {
     return "The line is currently empty."
+  } else {
+    do {
+      return ""
+    }
   }
 }
