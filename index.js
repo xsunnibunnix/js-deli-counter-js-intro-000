@@ -4,12 +4,10 @@ function takeANumber(line, name) {
 }
 
 function nowServing(line) {
-    function lineShift() {
-      if (line.length === 0) {
-        return  "There is nobody waiting to be served!"
-      } else {
-        return "Currently serving " + line[0] + "."
-      }
+  if (line.length === 0) {
+    return  "There is nobody waiting to be served!"
+  } else {
+    console.log("Currently serving " + line[0] + ".")
   }
-  line.shift()
+  line.push()
 }
