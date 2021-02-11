@@ -12,3 +12,9 @@ var current = line[0]
     return "Currently serving " + current + ".";
     }
   }
+
+function currentLine(line) {
+  if (line.length === ) {
+    return "The line is currently empty."
+  }
+}
