@@ -10,6 +10,6 @@ function nowServing(line) {
     do {
       return `Currently serving ${line[0]}.`;
     } while (line.length>0);
-    line.shift(0);
+    line.shift();
   }
 }
