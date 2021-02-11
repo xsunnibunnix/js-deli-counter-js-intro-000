@@ -18,7 +18,7 @@ function currentLine(line) {
   } else {
     newLine.push("The line is currently: ")
     for (let i = 0; i < line.length; i++) {
-      newLine.push(console.log(i++ + `. ` + line[i]));
+      newLine.push(`${i+=1}. line[i]`);
       return newLine;
     }
   }
