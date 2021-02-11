@@ -16,7 +16,7 @@ function currentLine(line) {
     return "The line is currently empty."
   } else {
     while (i<line.length) {
-      return `The line is currently: ` + i + `.` + ${line[i] `,`}
+      return `The line is currently: ` + i + `.` + ${line[i]} `,`}
     }
   }
   }
